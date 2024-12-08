@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="uft-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+	<meta name="description" content="This is an example of a meta description. This will often show up in search results so it is important to write a high quality description for each page of a website">
+	<title>Animal Photography :: Home</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Animal Photography</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="photos.html">Photos</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<main>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<img class="header-image" src="images/fox.jpg" alt="fox in snow" height="400" width="1200">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="d-flex align-items-center justify-content-center">
+						<i class="fa fa-camera fa-3x"></i>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<p>The website features photographs of animals from Pixabay.com. The key to animal photography is patience. It can take a long time to get the right lighting and the best view of the animal. When photographing animals, you do not have a lot of control...you need to wait for them.</p>
+				</div>
+				<div class="col-sm-3">
+					<div class="d-flex align-items-center justify-content-center">
+						<i class="fa fa-camera fa-3x"></i>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="gallery">
+    					<div class="preview">
+        					<img id="preview" src="images/adler.jpg" style="display:block;margin:0 auto;" alt="eagle head"  height="600" width="800"/>
+    					</div>
+    					<div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+        					<img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/bison.jpg" alt="bison" />
+        					<img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/deer.jpg" alt="deer in snow"  />
+        					<img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="images/frog.jpg" alt="green tree frog" />
+        					<img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/hedgehog.jpg" alt="small hedgehog" />
+        					<img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="images/lizard.jpg" alt="large green lizard head"  />
+        					<img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" id="img6" src="images/otter.jpg" alt="otter" />
+        					<img onclick="document.getElementById('preview').src = document.getElementById('img7').src;" id="img7" src="images/rabbit.jpg" alt="rabbit" />
+        					<img onclick="document.getElementById('preview').src = document.getElementById('img8').src;" id="img8" src="images/sheep.jpg" alt="sheep" />
+        					<img onclick="document.getElementById('preview').src = document.getElementById('img9').src;" id="img9" src="images/spider.jpg" alt="small spider" />
+        					<img onclick="document.getElementById('preview').src = document.getElementById('img8').src;" id="img8" src="images/turtle.jpg" alt="swimming turtle" />
+    					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<h2>Connect with Animal Photography</h2>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-4">
+						<i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+							<h3>Facebook</h3>
+					</div>
+					<div class="col-sm-4">
+						<i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+							<h3>Instagram</h3>
+					</div>
+					<div class="col-sm-4">
+						<i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+							<h3>Email Us</h3>
+					</div>
+				</div>
+			</div>
+		<h2>Web Design Exercise</h2>
+			<p>Animal Photography is a website exercise on image galleries available on WebDevStudents.com. The images are royalty-free photos from pixabay.com. JavaScript was used to make the photo gallery, and Bootstrap columns for responsive layout.</p>
+	</footer>
+	<footer>
+		<p>Copyright Ryan VanAlstine 2024</p>
+	</footer>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
