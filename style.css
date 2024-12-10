@@ -28,7 +28,7 @@ head{
 
 }
 nav{
-	background-color: purple;
+	background-color: #E6E6FA;
 	border-top: 3px solid grey;
 	border-bottom: 3px solid grey;
 }
@@ -37,6 +37,7 @@ h2{
 }
 header{
 	text-align: center;
+	background-color: white;
 }
 .home-hero{
 	background-image: url(images/space.png);
@@ -81,8 +82,8 @@ nav a:active{
 .home-photo{
 	float: right;
 	max-width: 50%;
-	height: auto;
-	margin: 50px 0 10px 20px;
+	height: 300px;
+	margin: 10px 0 10px 10px;
 }
 h2{
 	text-align: center;
@@ -91,21 +92,22 @@ h2{
 	border-bottom: 3px solid black;
 }
 main{
-	max-width: 800px;
+	max-width: 1000px;
 	margin: 20px auto;
 	padding: 10px;
 }
 blockquote{
 	background-color: #eeeeee;
-	border-left: 10px solid gray;
+	border-left: 10px solid #E6E6FA;
 	padding: 30px;
 	font-family: 'Bebas Neue';
 }
 /* Footer */
 footer{
-	background-color: purple;
+	background-color: #E6E6FA;
 	border-top: gray 3px solid;
 	text-align: center;
+	padding: 30px;
 }
 .footer1000{
 	max-width: 1000px;
@@ -120,6 +122,23 @@ footer{
 iframe {
    display: block;
    margin: 0 auto;
+}
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 /*CSS without a media query--applies to all sizes unless overridden*/
 h1{
