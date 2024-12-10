@@ -85,6 +85,9 @@ nav a:active{
 	height: 300px;
 	margin: 10px 0 10px 10px;
 }
+li{
+	text-align: left;
+}
 h2{
 	text-align: center;
 	font-size: 30px;
